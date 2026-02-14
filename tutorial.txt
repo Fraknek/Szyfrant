@@ -3,10 +3,13 @@ You can download my code and use it for your project or just use it as it is!
 How to use:
 1.Put guard.vbs to your startup directory (win+r and in popup type in "shell:startup" without ")
 2.Edit guard.vbs: 
-My looks like that
+My looks like that:
+
 Set WshShell = CreateObject("WScript.Shell")
 WshShell.Run Chr(34) & "F:\szyfrant final\guard.exe" & Chr(34), 0, False
 Set WshShell = Nothing
+
+
 In "" (after WshShell.Run Chr(34) &) there is an directory leading to guard.exe so edit it like that so it leads to yours.
 Just press right shift + right mouse button on guard.exe and press copy as path
 Then delete " from both sides and paste it so it looks like mine.
