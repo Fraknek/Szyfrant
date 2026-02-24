@@ -1,1 +1,6 @@
 PROCES=steam.exe
+EXTRA=extra1.exe
+EXTRA=extra2.exe
+EXTRA=extra3.exe
+EXTRA=extra4.exe
+EXTRA=extra5.exe
